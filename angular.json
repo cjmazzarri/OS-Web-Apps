@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "OS-Web-Apps"
+    }
+  },
+  "defaultProject": "OS-Web-Apps",
+  "cli": {
+    "analytics": "58777690-70b2-4ddc-acc8-27c4f1ef7bc8"
+  }
 }

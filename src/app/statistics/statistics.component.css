@@ -1,0 +1,96 @@
+html, body{
+  width: 100%;
+}
+
+h1, label, span, div {
+  color: white;
+  font-family: "Khula", sans-serif;
+}
+
+#header {
+  width: 100%;
+  top: 0;
+  height: 50px;
+
+  background-color: rgba(51, 76, 132, 0.99);
+}
+
+.space {
+  background-color: rgba(155, 155, 161, 0.99);
+  height: 10px;
+}
+
+#bar-information{
+  background-color: rgba(58, 69, 82, 0.99);
+  display: flex;
+  padding-left: 5%;
+  padding-right: 10%;
+}
+
+#statistics{
+  width: 35%
+}
+
+#personal-information{
+  color:white;
+
+  height: 60px;
+  padding-top: 15px;
+  width: 65%
+}
+
+.up .down{
+  padding-bottom: 10px;
+}
+
+.left{
+  text-align: left;
+
+}
+
+.info{
+  margin-left: 20%;
+}
+
+#middle{
+  background-color: rgba(12, 22, 43, 0.99);
+  color: white;
+  border-top: 10px;
+  border-bottom: 10px;
+  padding-left: 10%;
+}
+
+.subrayado{
+  text-decoration: underline;
+}
+
+.enlace{
+  text-decoration: underline;
+  color: rgba(172, 45, 64, 0.99);
+}
+
+#bar-logo{
+  background-color: rgba(58, 69, 82, 0.99);
+  height: 50px;
+}
+
+.line{
+  border: 5px solid rgba(113, 24, 40, 0.99);
+  height: 0;
+}
+
+#footer{
+  width: 100%;
+  bottom: 0;
+  height: 30px;
+
+  background-color: rgba(113, 24, 40, 0.99);
+  color: white;
+  text-align: right;
+  left: 0;
+  right: 0;
+
+  align-items: center;
+
+  font-weight: 500;
+}
