@@ -1,0 +1,87 @@
+
+  .header
+  {
+    height: 6em;
+    background-color: #3055AB;
+  }
+  .text{
+    font-family: 'Khula', sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+    font-style: italic;
+  }
+  .login{
+    top: 50%;
+    padding-top: 10px;
+    padding-left: 17rem;
+    padding-bottom: 30px;
+    font-size: 0.9rem;
+
+    background-color: #23313F;
+    color:  white;
+    font-family: 'Khula', sans-serif;
+
+    font-weight: lighter;
+  }
+
+  .login input[type ="text"]{
+    display: block;
+    font-family: 'Khula', sans-serif;
+    border: 0.1em solid white;
+    width: 65em;
+    height: 40px;
+    border-radius: 30px;
+    outline: none;
+    color: white;
+    background-color: #3B4854;
+  }
+  .button{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .Accept{
+    font-family: 'Khula', sans-serif;
+    border-radius: 25px;
+    border-color: white;
+    background-color: #A43E38;
+    color: white;
+    height: 40px;
+    width: 150px;
+    margin-left: 1250px;
+  }
+  .greyline{
+    background-color: #D3D6E2;
+    height: 10px;
+  }
+  .redline{
+    background-color: #AB5254;
+    height: 5px;
+  }
+.redline2{
+  background-color: #743F43;
+  height: 5px;
+}
+.blueline{
+  background-color: #3A62B7;
+  height: 5px;
+}
+.blueline2{
+  background-color: #2B4982;
+  height: 5px;
+}
+.header2{
+  background-color: #AB5254;
+  height: 3em;
+  text-align: right;
+  padding-right: 10px;
+  padding-top: 20px;
+  font-family: 'Khula', sans-serif;
+  font-size: 1em;
+  color: white;
+
+}
+.record{
+  color: #A43E38;
+  text-decoration-line: underline;
+  padding-left: 10px;
+}
