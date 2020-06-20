@@ -18,25 +18,25 @@
   padding-bottom: 30px;
   font-family: "Khula", sans-serif;
   font-weight: normal;
-  font-size: 1.5em;
+  font-size: 2.50em;
   text-align: center;
   color: white;
-  background: #2E3D4E;
+  background: #23313F;
 }
 
 .space{
   height: 5px;
 }
 
-.button-area{
+.center-area{
   padding-top: 20px;
   background: #23313F;
-  height: 150px;
+  height: 350px;
   text-align: center;
 }
 
 .footer{
-  background: #E43B31;
+  background: #9F3833;
   height: 30px;
   padding-top: 10px;
   padding-right: 5px;
@@ -51,14 +51,24 @@
   background-color: #A33D37;
   font-family: "Khula", sans-serif;
   font-weight: lighter;
-  font-size: 1em;
+  font-size: 2.25em;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 75px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 45px;
+  padding-right: 45px;
   color: white;
-  border-radius: 25px;
+  border-radius: 15px;
+  vertical-align: center;
 }
 
 .image{
-  text-align: left;
+  text-align: center;
   background: #2E3D4E;
+}
+
+.blue-space{
+  background: #2E3D4E;
+  height: 30px;
 }
