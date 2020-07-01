@@ -7,6 +7,7 @@ import { LoginFormComponent } from './login-form/login-form.component';
 import { NoVacantComponent } from './no-vacant/no-vacant.component';
 import { AdminWelcomeComponent } from './admin-welcome/admin-welcome.component';
 import { RequestsNotFoundComponent } from './requests-not-found/requests-not-found.component';
+import { ReturnPasswordComponent } from './return-password/return-password.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -17,13 +18,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     LoginFormComponent,
     NoVacantComponent,
     AdminWelcomeComponent,
-    RequestsNotFoundComponent
+    RequestsNotFoundComponent,
+    ReturnPasswordComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule
   ],
   providers: [],
-  bootstrap: [NoVacantComponent]
+  bootstrap: [ReturnPasswordComponent]
 })
 export class AppModule { }
