@@ -1,0 +1,40 @@
+.btn1{
+  background-color: #4377F2;
+  font-family: "Khula" , sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+  width: 200px;
+  border-radius: 15px;
+}
+
+.spacer{
+  height: 10px;
+}
+
+.space2{
+  background-color:  #4377F2;
+  height: 50px;
+  text-align: center;
+}
+
+
+.text{
+  color: white;
+  font-size: 20px;
+  font-family: "Khula" , sans-serif;
+  font-weight: lighter;
+}
+
+.button-area{
+  background-color: #131C25;
+  font-size: 100px;
+  text-align: center;
+}
+
+.space{
+  background-color: #2E3D4E ;
+  height: 50px;
+}
