@@ -1,4 +1,18 @@
 
+nav a.active{
+  color: #2B4982;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: 'Khula', sans-serif;
+  border-radius: 25px;
+  border-color: white;
+  background-color: #A43E38;
+  color: white;
+  height: 40px;
+  width: 150px;
+  margin-left: 1250px;
+}
+
   .header
   {
     height: 6em;

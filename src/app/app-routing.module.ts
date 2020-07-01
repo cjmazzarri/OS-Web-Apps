@@ -4,7 +4,7 @@ import {LoginFormComponent} from './login-form/login-form.component';
 import {DetectAccountComponent} from './detect-account/detect-account.component';
 
 const routes: Routes = [
-  {path: 'login' , component: LoginFormComponent},
+  {path: '' , component: LoginFormComponent},
   {path: 'detected' , component: DetectAccountComponent}
 ];
 
