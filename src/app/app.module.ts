@@ -7,6 +7,7 @@ import { LoginFormComponent } from './login-form/login-form.component';
 import { NoVacantComponent } from './no-vacant/no-vacant.component';
 import { AdminWelcomeComponent } from './admin-welcome/admin-welcome.component';
 import { RequestsNotFoundComponent } from './requests-not-found/requests-not-found.component';
+import { CourseSelectComponent } from './course-select/course-select.component';
 
 @NgModule({
   declarations: [
@@ -15,12 +16,13 @@ import { RequestsNotFoundComponent } from './requests-not-found/requests-not-fou
     LoginFormComponent,
     NoVacantComponent,
     AdminWelcomeComponent,
-    RequestsNotFoundComponent
+    RequestsNotFoundComponent,
+    CourseSelectComponent
   ],
   imports: [
     BrowserModule
   ],
   providers: [],
-  bootstrap: [NoVacantComponent]
+  bootstrap: [CourseSelectComponent]
 })
 export class AppModule { }
