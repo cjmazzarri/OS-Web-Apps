@@ -1,9 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import {AppRoutingModule , routingComponents} from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { LoginFormComponent } from './login-form/login-form.component';
 import { NoVacantComponent } from './no-vacant/no-vacant.component';
 import { AdminWelcomeComponent } from './admin-welcome/admin-welcome.component';
 import { RequestsNotFoundComponent } from './requests-not-found/requests-not-found.component';
@@ -12,15 +12,16 @@ import { RequestsNotFoundComponent } from './requests-not-found/requests-not-fou
   declarations: [
     AppComponent,
     HeaderComponent,
-    LoginFormComponent,
+    routingComponents,
     NoVacantComponent,
     AdminWelcomeComponent,
     RequestsNotFoundComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
-  bootstrap: [NoVacantComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
