@@ -1,0 +1,104 @@
+.container{
+  padding: 10px;
+  font-family: "Segoe UI" , Tahoma , Geneva , Verdana , sans-serif;
+}
+
+.spacer{
+  height: 10px;
+}
+
+.image{
+  text-align: center;
+}
+
+
+.header{
+  background-color:  #4377F2;
+  font-size: 20px;
+}
+
+.space2{
+  background-color:  #4377F2;
+  height: 50px;
+}
+
+.space3{
+  background-color:  #9F3833;
+  height: 50px;
+}
+
+.sub-header{
+  color: #999999;
+  font-size: 50px;
+}
+
+.text{
+  color: white;
+  font-size: 20px;
+  font-family: "Khula" , sans-serif;
+  font-weight: lighter;
+}
+
+.buttonText{
+  color: white;
+  font-size: 20px;
+  font-family: "Khula" , sans-serif;
+  font-weight: lighter;
+  text-align: right;
+}
+
+.btn1{
+  background-color: #A33D37;
+  font-family: "Khula" , sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+  border-radius: 25px;
+}
+
+.divider{
+  width:75px;
+  height:30px;
+  display:inline-block;
+}
+
+.btn2{
+  background-color: #3457A1;
+  font-family: "Khula" , sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+  border-radius: 25px;
+}
+
+.stripe3{
+  background-color: white;
+  height: 10px;
+}
+
+
+.stripe2{
+  background-color: #2C4982;
+  height: 10px;
+}
+
+.stripe1{
+  background-color: #4377F2;
+  height: 10px;
+}
+
+
+.space{
+  background-color: #2E3D4E ;
+  height: 50px;
+}
+
+.button-area{
+  background-color: #2E3D4E;
+  font-size: 100px;
+  text-align: center;
+}
