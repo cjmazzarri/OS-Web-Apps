@@ -1,0 +1,74 @@
+.header{
+  background: #4377F2;
+  height: 50px;
+}
+
+.stripe1{
+  background: #E43B31;
+  height: 10px;
+}
+
+.stripe2{
+  background: #9F3833;
+  height: 10px;
+}
+
+.text{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: "Khula", sans-serif;
+  font-weight: normal;
+  font-size: 2.50em;
+  text-align: center;
+  color: white;
+  background: #23313F;
+}
+
+.space{
+  height: 5px;
+}
+
+.center-area{
+  padding-top: 20px;
+  background: #23313F;
+  height: 350px;
+  text-align: center;
+}
+
+.footer{
+  background: #9F3833;
+  height: 30px;
+  padding-top: 10px;
+  padding-right: 5px;
+  font-family: "Khula", sans-serif;
+  font-weight: lighter;
+  font-size: 1em;
+  text-align: right;
+  color: white;
+}
+
+.btn1{
+  background-color: #A33D37;
+  font-family: "Khula", sans-serif;
+  font-weight: lighter;
+  font-size: 2.25em;
+  text-align: center;
+  margin-top: 75px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 45px;
+  padding-right: 45px;
+  color: white;
+  border-radius: 15px;
+  vertical-align: center;
+}
+
+.image{
+  text-align: center;
+  background: #2E3D4E;
+}
+
+.blue-space{
+  background: #2E3D4E;
+  height: 30px;
+}
