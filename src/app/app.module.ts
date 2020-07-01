@@ -8,6 +8,8 @@ import { NoVacantComponent } from './no-vacant/no-vacant.component';
 import { AdminWelcomeComponent } from './admin-welcome/admin-welcome.component';
 import { RequestsNotFoundComponent } from './requests-not-found/requests-not-found.component';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +20,8 @@ import { RequestsNotFoundComponent } from './requests-not-found/requests-not-fou
     RequestsNotFoundComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [NoVacantComponent]
