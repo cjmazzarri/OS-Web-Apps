@@ -1,0 +1,85 @@
+.header{
+  height: 6em;
+  background-color: #2E3D4E;
+}
+.redline{
+  background-color: #AB5254;
+  height: 5px;
+}
+.redline2{
+  background-color: #743F43;
+  height: 5px;
+}
+.blueline{
+  background-color: #3A62B7;
+  height: 5px;
+}
+.blueline2{
+  background-color: #2B4982;
+  height: 5px;
+}
+.title{
+  font-size: 3vw;
+  color: white;
+  padding-top: 2vw;
+  padding-left: 1vw;
+}
+.textB{
+  font-size: 2vw;
+  color: white;
+  padding-top: 2vw;
+  padding-left: 1vw;
+  background-color: #23313F;
+}
+.button{
+  background-color: grey;
+  border-radius: 25px;
+  border-color: white;
+  border-style: solid;
+  margin-left: 70vw;
+  width: 9vw;
+}
+.button2{
+background-color: #A43E38;
+  border-radius: 25px;
+  border-color: white;
+  border-style: solid;
+  width: 9vw;
+}
+.button3{
+background-color: #3A62B7;
+  border-radius: 25px;
+  border-color: white;
+  border-style: solid;
+  width: 9vw;
+}
+.back{
+  background-color: #2E3D4E;
+  height: 4vw;
+  padding-bottom: 1vw;
+}
+.space{
+  padding-top: 1vw;
+  height: 4vw;
+  background-color: #23313F;
+}
+.header2{
+  background-color: #AB5254;
+  height: 9em;
+  text-align: right;
+  padding-right: 10px;
+  padding-top: 20px;
+  font-family: 'Khula', sans-serif;
+  font-size: 1em;
+  color: white;
+
+}
+.greyline{
+  background-color: #D3D6E2;
+  height: 10px;
+}
+.table{
+  color: white;
+  background-color: #AB5254;
+}
+

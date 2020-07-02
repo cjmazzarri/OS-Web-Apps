@@ -9,7 +9,13 @@ import { AdminWelcomeComponent } from './admin-welcome/admin-welcome.component';
 import { RequestsNotFoundComponent } from './requests-not-found/requests-not-found.component';
 import { ReturnPasswordComponent } from './return-password/return-password.component';
 
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CourseSelectComponent } from './course-select/course-select.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
+import {MatTableModule} from "@angular/material/table";
+import { CourseTableComponent } from './course-table/course-table.component';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
+import {MatButtonModule} from "@angular/material/button";
 
 @NgModule({
   declarations: [
@@ -19,13 +25,18 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     NoVacantComponent,
     AdminWelcomeComponent,
     RequestsNotFoundComponent,
-    ReturnPasswordComponent
+    CourseSelectComponent,
+    CourseTableComponent
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule,
+    MatButtonModule
   ],
   providers: [],
-  bootstrap: [ReturnPasswordComponent]
+  bootstrap: [CourseSelectComponent]
 })
 export class AppModule { }
