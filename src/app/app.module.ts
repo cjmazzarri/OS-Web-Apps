@@ -8,6 +8,12 @@ import { NoVacantComponent } from './no-vacant/no-vacant.component';
 import { AdminWelcomeComponent } from './admin-welcome/admin-welcome.component';
 import { RequestsNotFoundComponent } from './requests-not-found/requests-not-found.component';
 import { CourseSelectComponent } from './course-select/course-select.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
+import {MatTableModule} from "@angular/material/table";
+import { CourseTableComponent } from './course-table/course-table.component';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
+import {MatButtonModule} from "@angular/material/button";
 
 @NgModule({
   declarations: [
@@ -17,10 +23,16 @@ import { CourseSelectComponent } from './course-select/course-select.component';
     NoVacantComponent,
     AdminWelcomeComponent,
     RequestsNotFoundComponent,
-    CourseSelectComponent
+    CourseSelectComponent,
+    CourseTableComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [CourseSelectComponent]

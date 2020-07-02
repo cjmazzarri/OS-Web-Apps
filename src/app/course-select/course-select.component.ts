@@ -13,3 +13,4 @@ export class CourseSelectComponent implements OnInit {
   }
 
 }
+
