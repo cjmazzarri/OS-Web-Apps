@@ -16,6 +16,7 @@ import { CourseTableComponent } from './course-table/course-table.component';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import {MatButtonModule} from "@angular/material/button";
+import { FiltersComponent } from './filters/filters.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,9 @@ import {MatButtonModule} from "@angular/material/button";
     AdminWelcomeComponent,
     RequestsNotFoundComponent,
     CourseSelectComponent,
-    CourseTableComponent
+    CourseTableComponent,
+    ReturnPasswordComponent,
+    FiltersComponent
   ],
   imports: [
     BrowserModule,
@@ -37,6 +40,6 @@ import {MatButtonModule} from "@angular/material/button";
     MatButtonModule
   ],
   providers: [],
-  bootstrap: [CourseSelectComponent]
+  bootstrap: [FiltersComponent]
 })
 export class AppModule { }
