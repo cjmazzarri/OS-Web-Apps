@@ -10,6 +10,7 @@ import { RequestsNotFoundComponent } from './requests-not-found/requests-not-fou
 import { ReturnPasswordComponent } from './return-password/return-password.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FiltersComponent } from './filters/filters.component';
 
 @NgModule({
   declarations: [
@@ -19,13 +20,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     NoVacantComponent,
     AdminWelcomeComponent,
     RequestsNotFoundComponent,
-    ReturnPasswordComponent
+    ReturnPasswordComponent,
+    FiltersComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule
   ],
   providers: [],
-  bootstrap: [ReturnPasswordComponent]
+  bootstrap: [FiltersComponent]
 })
 export class AppModule { }
