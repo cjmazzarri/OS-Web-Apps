@@ -8,8 +8,14 @@ import { NoVacantComponent } from './no-vacant/no-vacant.component';
 import { AdminWelcomeComponent } from './admin-welcome/admin-welcome.component';
 import { RequestsNotFoundComponent } from './requests-not-found/requests-not-found.component';
 import { ReturnPasswordComponent } from './return-password/return-password.component';
-
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { RequestsComponent } from './requests/requests.component';
+import { RequestsTableComponent } from './requests-table/requests-table.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
+import { RequestDetailComponent } from './request-detail/request-detail.component';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -19,13 +25,20 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     NoVacantComponent,
     AdminWelcomeComponent,
     RequestsNotFoundComponent,
-    ReturnPasswordComponent
+    ReturnPasswordComponent,
+    RequestsComponent,
+    RequestsTableComponent,
+    RequestDetailComponent
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule,
+    MatButtonModule
   ],
   providers: [],
-  bootstrap: [ReturnPasswordComponent]
+  bootstrap: [RequestDetailComponent]
 })
 export class AppModule { }
