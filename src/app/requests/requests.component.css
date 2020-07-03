@@ -1,0 +1,67 @@
+
+  .blue-space {
+    background: #4377F2;
+    height: 30px;
+  }
+
+  .title-area {
+    background-color: #2E3D4E;
+    font-family: "Khula", sans-serif;
+    font-weight: normal;
+    font-size: 2.25em;
+    text-align: center;
+    color: white;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 50px;
+    height: 65px;
+  }
+
+  .table-area {
+    background-color: #2E3D4E;
+    height: 400px;
+  }
+
+  .white-stripe {
+    background-color: white;
+    height: 10px;
+  }
+
+  .light-red-stripe {
+    background: #E43B31;
+    height: 10px;
+  }
+
+  .dark-red-stripe {
+    background: #9F3833;
+    height: 10px;
+  }
+
+  .image-area {
+    background-color: #2E3D4E;
+    height: 45px;
+    padding-bottom: 50px;
+  }
+
+  .text {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: "Khula", sans-serif;
+    font-weight: normal;
+    font-size: 2.50em;
+    text-align: center;
+    color: white;
+    background: #23313F;
+  }
+
+  .footer {
+    background: #9F3833;
+    height: 35px;
+    padding-top: 10px;
+    padding-right: 5px;
+    font-family: "Khula", sans-serif;
+    font-weight: lighter;
+    font-size: 1em;
+    text-align: right;
+    color: white;
+  }
