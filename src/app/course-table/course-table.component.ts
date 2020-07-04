@@ -4,10 +4,6 @@ import { MatSort } from '@angular/material/sort';
 import { MatTable } from '@angular/material/table';
 import { CourseTableDataSource, CourseTableItem } from './course-table-datasource';
 
-const COLORS: string[] = [
-  'white','white','white','white','white'
-];
-
 @Component({
   selector: 'app-course-table',
   templateUrl: './course-table.component.html',
@@ -20,7 +16,7 @@ export class CourseTableComponent implements AfterViewInit, OnInit {
   dataSource: CourseTableDataSource;
 
   /** Columns displayed in the table. Columns IDs can be added, removed, or reordered. */
-  displayedColumns = ['seccion', 'curso', 'docente', 'fecha','salon'];
+  displayedColumns = ['seccion', 'curso', 'docente', 'fecha', 'salon'];
 
   ngOnInit() {
     this.dataSource = new CourseTableDataSource();
@@ -31,9 +27,6 @@ export class CourseTableComponent implements AfterViewInit, OnInit {
     this.dataSource.paginator = this.paginator;
     this.table.dataSource = this.dataSource;
   }
-
-
-
 }
 
 
