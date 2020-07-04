@@ -10,6 +10,12 @@
     text-align: center;
     font-style: italic;
   }
+  .password{
+    font-family: 'Khula', sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+    font-style: italic;
+  }
   .login{
     top: 50%;
     padding-top: 10px;
@@ -24,7 +30,7 @@
     font-weight: lighter;
   }
 
-  .login input[type ="text"]{
+  .login input[type ="text"],.login input[type="password"]{
     display: block;
     font-family: 'Khula', sans-serif;
     border: 0.1em solid white;
@@ -34,7 +40,10 @@
     outline: none;
     color: white;
     background-color: #3B4854;
+
   }
+
+
   .button{
     padding-top: 30px;
     padding-bottom: 30px;

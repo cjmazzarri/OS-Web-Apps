@@ -15,7 +15,7 @@ export class LoginFormComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  constructor(private http) { }
+  constructor() { }
   getAllUsers() {
       axios.get('https://speedplanneros.azurewebsites.net/api/users').then(
         response => {
@@ -28,7 +28,8 @@ export class LoginFormComponent implements OnInit {
             console.log('User Found');
             this.userId = response.data[i].id;
             console.log('User id:', this.userId);
-            // router.push({path: `/studentHome`}); cambiar por sintaxis de angular
+
+            // router.push({path: `/inscription-process`}); cambiar por sintaxis de angular
             this.check = true;
             break;
           }
