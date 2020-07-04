@@ -1,71 +1,71 @@
 
-  .header
-  {
-    height: 6em;
-    background-color: #3055AB;
-  }
-  .text{
-    font-family: 'Khula', sans-serif;
-    font-size: 2.5em;
-    text-align: center;
-    font-style: italic;
-  }
-  .password{
-    font-family: 'Khula', sans-serif;
-    font-size: 2.5em;
-    text-align: center;
-    font-style: italic;
-  }
-  .login{
-    top: 50%;
-    padding-top: 10px;
-    padding-left: 17rem;
-    padding-bottom: 30px;
-    font-size: 0.9rem;
+.header
+{
+  height: 6em;
+  background-color: #3055AB;
+}
+.text{
+  font-family: 'Khula', sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+  font-style: italic;
+}
+.password{
+  font-family: 'Khula', sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+  font-style: italic;
+}
+.login{
+  top: 50%;
+  padding-top: 10px;
+  padding-left: 17rem;
+  padding-bottom: 30px;
+  font-size: 0.9rem;
 
-    background-color: #23313F;
-    color:  white;
-    font-family: 'Khula', sans-serif;
+  background-color: #23313F;
+  color:  white;
+  font-family: 'Khula', sans-serif;
 
-    font-weight: lighter;
-  }
+  font-weight: lighter;
+}
 
-  .login input[type ="text"],.login input[type="password"]{
-    display: block;
-    font-family: 'Khula', sans-serif;
-    border: 0.1em solid white;
-    width: 65em;
-    height: 40px;
-    border-radius: 30px;
-    outline: none;
-    color: white;
-    background-color: #3B4854;
+.login input[type ="text"],.login input[type="password"]{
+  display: block;
+  font-family: 'Khula', sans-serif;
+  border: 0.1em solid white;
+  width: 65em;
+  height: 40px;
+  border-radius: 30px;
+  outline: none;
+  color: white;
+  background-color: #3B4854;
 
-  }
+}
 
 
-  .button{
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-  .Accept{
-    font-family: 'Khula', sans-serif;
-    border-radius: 25px;
-    border-color: white;
-    background-color: #A43E38;
-    color: white;
-    height: 40px;
-    width: 150px;
-    margin-left: 1250px;
-  }
-  .greyline{
-    background-color: #D3D6E2;
-    height: 10px;
-  }
-  .redline{
-    background-color: #AB5254;
-    height: 5px;
-  }
+.button{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.Accept{
+  font-family: 'Khula', sans-serif;
+  border-radius: 25px;
+  border-color: white;
+  background-color: #A43E38;
+  color: white;
+  height: 40px;
+  width: 150px;
+  margin-left: 1250px;
+}
+.greyline{
+  background-color: #D3D6E2;
+  height: 10px;
+}
+.redline{
+  background-color: #AB5254;
+  height: 5px;
+}
 .redline2{
   background-color: #743F43;
   height: 5px;
@@ -101,108 +101,108 @@
   height: 40%;
   padding-top: 30px;
 }
-  @media screen and (max-width: 800px){
-    .text{
-      font-size: 25px;
-    }
-    .login{
-      float: right !important;
-      top: 50%;
-      padding-top: 5px;
-      padding-right: 30px !important;
-      padding-bottom: 15px;
-      font-size: 0.9rem;
-
-      background-color: #23313F;
-      color:  white;
-      font-family: 'Khula', sans-serif;
-
-      font-weight: lighter;
-    }
-    .login h1{
-      text-align: right !important;
-      padding-right: 130px !important;
-    }
-    .login input[type ="text"]{
-      float: left;
-      font-family: 'Khula', sans-serif;
-      border: 0.1em solid white;
-      width: 25em;
-      height: 25px;
-      border-radius: 30px;
-      outline: none;
-      color: white;
-      background-color: #3B4854;
-    }
-    .Accept{
-      font-family: 'Khula', sans-serif;
-      border-radius: 25px;
-      border-color: white;
-      background-color: #A43E38;
-      color: white;
-      height: 30px;
-      width: 100px;
-      margin-left: 150px !important;
-      margin-top: 15px !important;
-    }
-    .button{
-      padding-top: 10px!important;
-      padding-bottom: 10px !important;
-    }
-    .img{
-      display:block;
-      margin:auto;
-      width: 60% !important;
-      height: 40% !important;
-      padding-top: 30px;
-    }
+@media screen and (max-width: 800px){
+  .text{
+    font-size: 25px;
   }
-  @media screen and (max-width: 400px){
-    .text{
-      font-size: 25px;
-    }
-    .login{
-      float: right !important;
-      top: 50%;
-      padding-top: 5px;
-      padding-right: 30px !important;
-      padding-bottom: 15px;
-      font-size: 0.9rem;
+  .login{
+    float: left !important;
+    top: 50%;
+    padding-top: 5px;
+    padding-right: 3px !important;
+    padding-bottom: 15px;
+    font-size: 0.9rem;
 
-      background-color: #23313F;
-      color:  white;
-      font-family: 'Khula', sans-serif;
+    background-color: #23313F;
+    color:  white;
+    font-family: 'Khula', sans-serif;
 
-      font-weight: lighter;
-    }
-    .login h1{
-      text-align: right !important;
-      padding-right: 130px !important;
-    }
-    .login input[type ="text"]{
-      float: left;
-      font-family: 'Khula', sans-serif;
-      border: 0.1em solid white;
-      width: 25em;
-      height: 25px;
-      border-radius: 30px;
-      outline: none;
-      color: white;
-      background-color: #3B4854;
-    }
-    .Accept{
-      font-family: 'Khula', sans-serif;
-      border-radius: 25px;
-      border-color: white;
-      background-color: #A43E38;
-      color: white;
-      height: 30px;
-      width: 100px;
-      margin-left: 150px !important;
-      margin-top: 15px !important;
-    }
-    .button{
-      padding-top: 10px!important;
-      padding-bottom: 10px !important;
-    }
+    font-weight: lighter;
   }
+  .login h1{
+    text-align: right !important;
+    padding-right: 130px !important;
+  }
+  .login input[type ="text"],.login input[type="password"]{
+    float: left;
+    font-family: 'Khula', sans-serif;
+    border: 0.1em solid white;
+    width: 25em;
+    height: 25px;
+    border-radius: 30px;
+    outline: none;
+    color: white;
+    background-color: #3B4854;
+  }
+  .Accept{
+    font-family: 'Khula', sans-serif;
+    border-radius: 25px;
+    border-color: white;
+    background-color: #A43E38;
+    color: white;
+    height: 30px;
+    width: 100px;
+    margin-left: 150px !important;
+    margin-top: 15px !important;
+  }
+  .button{
+    padding-top: 10px!important;
+    padding-bottom: 10px !important;
+  }
+  .img{
+    display:block;
+    margin:auto;
+    width: 60% !important;
+    height: 40% !important;
+    padding-top: 30px;
+  }
+}
+@media screen and (max-width: 400px){
+  .text{
+    font-size: 25px;
+  }
+  .login{
+    float: right !important;
+    top: 50%;
+    padding-top: 5px;
+    padding-right: 30px !important;
+    padding-bottom: 15px;
+    font-size: 0.9rem;
+
+    background-color: #23313F;
+    color:  white;
+    font-family: 'Khula', sans-serif;
+
+    font-weight: lighter;
+  }
+  .login h1{
+    text-align: right !important;
+    padding-right: 130px !important;
+  }
+  .login input[type ="text"]{
+    float: left;
+    font-family: 'Khula', sans-serif;
+    border: 0.1em solid white;
+    width: 25em;
+    height: 25px;
+    border-radius: 30px;
+    outline: none;
+    color: white;
+    background-color: #3B4854;
+  }
+  .Accept{
+    font-family: 'Khula', sans-serif;
+    border-radius: 25px;
+    border-color: white;
+    background-color: #A43E38;
+    color: white;
+    height: 30px;
+    width: 100px;
+    margin-left: 150px !important;
+    margin-top: 15px !important;
+  }
+  .button{
+    padding-top: 10px!important;
+    padding-bottom: 10px !important;
+  }
+}
