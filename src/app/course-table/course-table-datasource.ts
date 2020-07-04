@@ -4,7 +4,6 @@ import { MatSort } from '@angular/material/sort';
 import { map } from 'rxjs/operators';
 import { Observable, of as observableOf, merge } from 'rxjs';
 
-// TODO: Replace this with your own data model type
 export interface CourseTableItem {
   curso: string;
   seccion: string;
@@ -13,12 +12,9 @@ export interface CourseTableItem {
   salon: string;
 }
 
-// TODO: replace this with real data from your application
-const EXAMPLE_DATA: CourseTableItem[] = [
-  {seccion: 'PNG-31', curso: 'Matematica Basica', docente: 'Lopez, Wilson', fecha: 'Lun 7-9 am/Jue 9-1 pm', salon:'UC-45'},
-  {seccion: '', curso: '', docente: '', fecha: '', salon:''},
-
-
+const courseTableItems: CourseTableItem[] = [
+  {curso: 'Matematica Basica', seccion: 'PNG-31', docente: 'Lopez, Wilson', fecha: 'Lun 7-9 am/Jue 9-1 pm', salon: 'UC-45'},
+  {curso: 'Calculo II', seccion: 'SW48', docente: 'Jhonny Pérez', fecha: 'Lun 9-11 am/Mie 7-9 am', salon: 'D-45'},
 ];
 
 /**
@@ -27,7 +23,7 @@ const EXAMPLE_DATA: CourseTableItem[] = [
  * (including sorting, pagination, and filtering).
  */
 export class CourseTableDataSource extends DataSource<CourseTableItem> {
-  data: CourseTableItem[] = EXAMPLE_DATA;
+  data: CourseTableItem[] = courseTableItems;
   paginator: MatPaginator;
   sort: MatSort;
 
@@ -81,7 +77,7 @@ export class CourseTableDataSource extends DataSource<CourseTableItem> {
     return data.sort((a, b) => {
       const isAsc = this.sort.direction === 'asc';
       switch (this.sort.active) {
-        case 'curso': return compare(a.curso, b.curso, isAsc);
+        case 'curso': return compare(+a.curso, +b.curso, isAsc);
         case 'seccion': return compare(+a.seccion, +b.seccion, isAsc);
         case 'docente': return compare(+a.docente, +b.docente, isAsc);
         case 'fecha': return compare(+a.fecha, +b.fecha, isAsc);
