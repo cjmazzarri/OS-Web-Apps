@@ -11,21 +11,21 @@
     <h1>Cursos Disponibles</h1>
     <div id="list-courses-type">
       <div class="list">
-        <input type="radio" id="career-course" name="course-type" value="career-course">
+        <input type="radio" id="career-course" name="course-type" value="career-course" routerLink="/course-select">
         <label>Cursos de Carrera</label>
       </div>
       <div class="list">
-        <input type="radio" id="elective-course" name="course-type" value="elective-course">
+        <input type="radio" id="elective-course" name="course-type" value="elective-course" routerLink="/course-select">
         <label>Electivos</label>
       </div>
     </div>
     <div class="left casilla">
       <input type="checkbox">
-      <span >Filtrar electivos</span>
+      <span routerLink="/filter" >Filtrar electivos</span>
     </div>
     <div id="buttons">
-      <button class="card">Guardar</button>
-      <button class="card">Grabar</button>
+      <button class="card" routerLink="/save-schedule">Guardar</button>
+      <button class="card" routerLink="/save-schedule-success" >Grabar</button>
     </div>
   </div>
   <div id="right-table-schedule">
