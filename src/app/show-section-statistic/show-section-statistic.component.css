@@ -13,17 +13,22 @@
   font-family: 'Khula', sans-serif;
   font-size: 4em;
   font-style: italic;
+  text-align: center;
 }
 .text {
   color: #FFFFFF !important;
   font-family: 'Khula', sans-serif;
   font-size: 1.5em;
+  text-align: left;
+  padding-left: 10px !important;
 }
 .text2{
   color: #FFFFFF !important;
   font-family: 'Khula', sans-serif;
   font-size: 1.3em;
   background-color:  #23313F;
+  text-align: left;
+  padding-left: 10px !important;
 }
 .text3{
   color: #9F3833 !important;
@@ -37,6 +42,8 @@
   font-family: 'Khula', sans-serif;
   font-size: 1.8em;
   text-decoration-line: underline;
+  text-align: left;
+  padding-left: 10px !important;
 }
 
 .space1{
@@ -71,4 +78,81 @@
   text-align: right;
   font-family: 'Khula', sans-serif;
   padding-bottom: 10px;
+}
+@media screen and (max-width: 800px) {
+  .title{
+    background-color: #2E3D4E;
+    color: #FFFFFF !important;
+    font-family: 'Khula', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    font-style: italic;
+  }
+  .text {
+    color: #FFFFFF !important;
+    font-family: 'Khula', sans-serif;
+    font-size: 1.3em;
+    text-align: left;
+    padding-left: 10px !important;
+  }
+  .textTile{
+    color: #FFFFFF !important;
+    font-family: 'Khula', sans-serif;
+    font-size: 1.5em;
+    text-decoration-line: underline;
+    text-align: left;
+    padding-left: 10px !important;
+  }
+  .text2{
+    color: #FFFFFF !important;
+    font-family: 'Khula', sans-serif;
+    font-size: 1.3em;
+    background-color:  #23313F;
+    text-align: left;
+    padding-left: 10px !important;
+  }
+  .img{
+    height: 50%;
+    width: 50%;
+    opacity: 60%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .title{
+    background-color: #2E3D4E;
+    color: #FFFFFF !important;
+    font-family: 'Khula', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    font-style: italic;
+  }
+  .text {
+    color: #FFFFFF !important;
+    font-family: 'Khula', sans-serif;
+    font-size: 1.3em;
+    text-align: left;
+    padding-left: 10px !important;
+  }
+  .textTile{
+    color: #FFFFFF !important;
+    font-family: 'Khula', sans-serif;
+    font-size: 1.5em;
+    text-decoration-line: underline;
+    text-align: left;
+    padding-left: 10px !important;
+  }
+  .text2{
+    color: #FFFFFF !important;
+    font-family: 'Khula', sans-serif;
+    font-size: 1.3em;
+    background-color:  #23313F;
+    text-align: left;
+    padding-left: 10px !important;
+  }
+  .img{
+    height: 50%;
+    width: 50%;
+    opacity: 60%;
+  }
 }

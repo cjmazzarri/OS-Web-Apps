@@ -1,6 +1,6 @@
 .header{
   background: #4377F2;
-  height: 50px;
+  height: 100px;
 }
 
 .stripe1{
@@ -14,14 +14,15 @@
 }
 
 .text{
-  padding-top: 30px;
+  padding-top: 50px;
   padding-bottom: 30px;
   font-family: "Khula", sans-serif;
   font-weight: normal;
-  font-size: 1.5em;
+  font-size: 2.8em;
   text-align: center;
   color: white;
   background: #2E3D4E;
+  height: 100px;
 }
 
 .space{
@@ -31,7 +32,7 @@
 .button-area{
   padding-top: 20px;
   background: #23313F;
-  height: 150px;
+  height: 300px;
   text-align: center;
 }
 
@@ -53,7 +54,7 @@
   font-weight: lighter;
   font-size: 1em;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 75px;
   color: white;
   border-radius: 25px;
 }
@@ -61,4 +62,76 @@
 .image{
   text-align: left;
   background: #2E3D4E;
+  height: 180px;
+}
+.img{
+  padding-top: 30px;
+  width:20%;height:70%; opacity:65%
+}
+@media screen and (max-width: 800px) {
+  .text{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-family: "Khula", sans-serif;
+    font-weight: normal;
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    background: #2E3D4E;
+    height: 50px !important;
+  }
+  .btn1{
+    background-color: #A33D37;
+    font-family: "Khula", sans-serif;
+    font-weight: lighter;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 35px;
+    color: white;
+    border-radius: 25px;
+  }
+  .button-area{
+    padding-top: 20px;
+    background: #23313F;
+    height: 200px;
+    text-align: center;
+  }
+  .img{
+    padding-top: 30px;
+    width:50%;height:50%; opacity:65%
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .text{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-family: "Khula", sans-serif;
+    font-weight: normal;
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    background: #2E3D4E;
+    height: 50px !important;
+  }
+  .btn1{
+    background-color: #A33D37;
+    font-family: "Khula", sans-serif;
+    font-weight: lighter;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 35px;
+    color: white;
+    border-radius: 25px;
+  }
+  .button-area{
+    padding-top: 20px;
+    background: #23313F;
+    height: 200px;
+    text-align: center;
+  }
+  .img{
+    padding-top: 30px;
+    width:50%;height:50%; opacity:65%
+  }
 }

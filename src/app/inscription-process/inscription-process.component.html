@@ -1,0 +1,58 @@
+<div id="header">
+  <img class="img" src="/assets/logochamnge.png" >
+</div>
+<div class="space"></div>
+<div id="personal-information">
+  <div class="up"><label class="left info">Usuario: </label> <label class="right">Ciclo: </label></div>
+  <div class="down"><span class="left info">Centro Educativo: </span> <span class="right">Carrera: </span> </div>
+</div>
+<div id="middle">
+  <div id="left-list-courses-type">
+    <h1>Cursos Disponibles</h1>
+    <div id="list-courses-type">
+      <div class="list">
+        <input type="radio" id="career-course" name="course-type" value="career-course">
+        <label>Cursos de Carrera</label>
+      </div>
+      <div class="list">
+        <input type="radio" id="elective-course" name="course-type" value="elective-course">
+        <label>Electivos</label>
+      </div>
+    </div>
+    <div class="left casilla">
+      <input type="checkbox">
+      <span >Filtrar electivos</span>
+    </div>
+    <div id="buttons">
+      <button class="card">Guardar</button>
+      <button class="card">Grabar</button>
+    </div>
+  </div>
+  <div id="right-table-schedule">
+    <table>
+      <tr>
+        <th class="no-color"></th>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miercoles</th>
+        <th>Jueves</th>
+        <th>Viernes</th>
+        <th>Sabado</th>
+        <th>Domingo</th>
+      </tr>
+      <tr *ngFor="let item of items">
+        <td>{{ item.hora }}
+        <td>{{ item.lunes }}</td>
+        <td>{{ item.martes }}</td>
+        <td>{{ item.miercoles }}</td>
+        <td>{{ item.jueves }}</td>
+        <td>{{ item.viernes }}</td>
+        <td>{{ item.sabado }}</td>
+        <td>{{ item.domingo }}</td>
+      </tr>
+
+    </table>
+  </div>
+</div>
+<div class="space"></div>
+<div id="footer">©Adaptimize, 2020</div>

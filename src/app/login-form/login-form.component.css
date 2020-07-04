@@ -85,3 +85,115 @@
   text-decoration-line: underline;
   padding-left: 10px;
 }
+.img{
+  display:block;
+  margin:auto;
+  width: 20%;
+  height: 40%;
+  padding-top: 30px;
+}
+  @media screen and (max-width: 800px){
+    .text{
+      font-size: 25px;
+    }
+    .login{
+      float: right !important;
+      top: 50%;
+      padding-top: 5px;
+      padding-right: 30px !important;
+      padding-bottom: 15px;
+      font-size: 0.9rem;
+
+      background-color: #23313F;
+      color:  white;
+      font-family: 'Khula', sans-serif;
+
+      font-weight: lighter;
+    }
+    .login h1{
+      text-align: right !important;
+      padding-right: 130px !important;
+    }
+    .login input[type ="text"]{
+      float: left;
+      font-family: 'Khula', sans-serif;
+      border: 0.1em solid white;
+      width: 25em;
+      height: 25px;
+      border-radius: 30px;
+      outline: none;
+      color: white;
+      background-color: #3B4854;
+    }
+    .Accept{
+      font-family: 'Khula', sans-serif;
+      border-radius: 25px;
+      border-color: white;
+      background-color: #A43E38;
+      color: white;
+      height: 30px;
+      width: 100px;
+      margin-left: 150px !important;
+      margin-top: 15px !important;
+    }
+    .button{
+      padding-top: 10px!important;
+      padding-bottom: 10px !important;
+    }
+    .img{
+      display:block;
+      margin:auto;
+      width: 60% !important;
+      height: 40% !important;
+      padding-top: 30px;
+    }
+  }
+  @media screen and (max-width: 400px){
+    .text{
+      font-size: 25px;
+    }
+    .login{
+      float: right !important;
+      top: 50%;
+      padding-top: 5px;
+      padding-right: 30px !important;
+      padding-bottom: 15px;
+      font-size: 0.9rem;
+
+      background-color: #23313F;
+      color:  white;
+      font-family: 'Khula', sans-serif;
+
+      font-weight: lighter;
+    }
+    .login h1{
+      text-align: right !important;
+      padding-right: 130px !important;
+    }
+    .login input[type ="text"]{
+      float: left;
+      font-family: 'Khula', sans-serif;
+      border: 0.1em solid white;
+      width: 25em;
+      height: 25px;
+      border-radius: 30px;
+      outline: none;
+      color: white;
+      background-color: #3B4854;
+    }
+    .Accept{
+      font-family: 'Khula', sans-serif;
+      border-radius: 25px;
+      border-color: white;
+      background-color: #A43E38;
+      color: white;
+      height: 30px;
+      width: 100px;
+      margin-left: 150px !important;
+      margin-top: 15px !important;
+    }
+    .button{
+      padding-top: 10px!important;
+      padding-bottom: 10px !important;
+    }
+  }

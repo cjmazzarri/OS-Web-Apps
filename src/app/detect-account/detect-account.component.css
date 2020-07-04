@@ -11,7 +11,6 @@
   text-align: center;
 }
 
-
 .header{
   background-color:  #4377F2;
   font-size: 20px;
@@ -34,9 +33,10 @@
 
 .text{
   color: white;
-  font-size: 20px;
+  font-size: 35px;
   font-family: "Khula" , sans-serif;
   font-weight: lighter;
+  padding-top: 100px;
 }
 
 .buttonText{
@@ -53,7 +53,6 @@
   font-weight: lighter;
   font-size: 20px;
   text-align: center;
-  margin-top: 10px;
   color: white;
   border-radius: 25px;
 }
@@ -70,7 +69,6 @@
   font-weight: lighter;
   font-size: 20px;
   text-align: center;
-  margin-top: 10px;
   color: white;
   border-radius: 25px;
 }
@@ -94,11 +92,57 @@
 
 .space{
   background-color: #2E3D4E ;
-  height: 50px;
+  height: 200px;
 }
 
 .button-area{
   background-color: #2E3D4E;
   font-size: 200px;
   text-align: center;
+}
+.a{
+  width: 25% ; height: 25%;
+}
+@media screen and (max-width: 800px) {
+  .space{
+    background-color: #2E3D4E ;
+    height: 100px !important;
+  }
+  .a{
+    width: 50% ; height: 50%;
+  }
+  .text{
+    color: white;
+    font-size: 20px;
+    font-family: "Khula" , sans-serif;
+    font-weight: lighter;
+    padding-top: 100px;
+  }
+  .button-area{
+    background-color: #2E3D4E;
+    font-size: 100px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .space{
+    background-color: #2E3D4E ;
+    height: 100px !important;
+  }
+  .a{
+    width: 50% ; height: 50%;
+  }
+  .text{
+    color: white;
+    font-size: 20px;
+    font-family: "Khula" , sans-serif;
+    font-weight: lighter;
+    padding-top: 100px;
+  }
+  .button-area{
+    background-color: #2E3D4E;
+    font-size: 100px;
+    text-align: center;
+  }
 }
