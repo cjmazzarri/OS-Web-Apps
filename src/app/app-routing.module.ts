@@ -18,6 +18,7 @@ import {SaveScheduleComponent} from './save-schedule/save-schedule.component';
 import {SaveScheduleSuccesComponent} from './save-schedule-success/save-schedule-success.component';
 import {ShowPeriodStatisticComponent} from './show-period-statistic/show-period-statistic.component';
 import {ShowScheduleComponent} from './show-schedule/show-schedule.component';
+import {InscriptionProcessComponent} from './inscription-process/inscription-process.component';
 
 
 const routes: Routes = [
@@ -25,7 +26,7 @@ const routes: Routes = [
   {path: 'forgot-password' , component: ForgotPasswordComponent},
   {path: 'detect-account' , component: DetectAccountComponent},
   {path: 'return-password' , component: ReturnPasswordComponent},
-  {path: 'student-home' , component: ShowCourseStatisticComponent},
+  {path: 'show-course-statistic' , component: ShowCourseStatisticComponent},
   {path: 'filter' , component: FiltersComponent},
   {path : 'course-table' , component: CourseTableComponent},
   {path: 'course-select' , component: CourseSelectComponent},
@@ -40,7 +41,8 @@ const routes: Routes = [
   {path: 'show-course-statistic' , component: ShowCourseStatisticComponent},
   {path: 'show-period-statistic' , component: ShowPeriodStatisticComponent},
   {path: 'show-schedule' , component: ShowScheduleComponent},
-  {path: 'show-section-statistic' , component: ShowScheduleComponent}
+  {path: 'show-section-statistic' , component: ShowScheduleComponent},
+  {path: 'inscription-process' , component: InscriptionProcessComponent}
 ];
 
 @NgModule({
@@ -50,4 +52,4 @@ const routes: Routes = [
 
 export class AppRoutingModule { }
 // tslint:disable-next-line:max-line-length
-export const routingComponents = [LoginFormComponent , ForgotPasswordComponent , DetectAccountComponent , ReturnPasswordComponent, ShowCourseStatisticComponent , FiltersComponent , CourseTableComponent , CourseSelectComponent , HeaderComponent , NoVacantComponent , RequestDetailComponent , RequestsComponent , RequestsNotFoundComponent , RequestsTableComponent , SaveScheduleComponent  , ShowCourseStatisticComponent , SaveScheduleSuccesComponent , ShowPeriodStatisticComponent , ShowScheduleComponent , ShowScheduleComponent];
+export const routingComponents = [LoginFormComponent , ForgotPasswordComponent , DetectAccountComponent , ReturnPasswordComponent, ShowCourseStatisticComponent , FiltersComponent , CourseTableComponent , CourseSelectComponent , HeaderComponent , NoVacantComponent , RequestDetailComponent , RequestsComponent , RequestsNotFoundComponent , RequestsTableComponent , SaveScheduleComponent  , ShowCourseStatisticComponent , SaveScheduleSuccesComponent , ShowPeriodStatisticComponent , ShowScheduleComponent , ShowScheduleComponent , InscriptionProcessComponent];
