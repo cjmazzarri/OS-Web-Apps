@@ -45,6 +45,7 @@ const routes: Routes = [
   {path: 'inscription-process' , component: InscriptionProcessComponent}
 ];
 
+
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]

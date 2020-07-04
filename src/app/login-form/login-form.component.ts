@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router, RouterModule} from '@angular/router';
 import axios from 'axios';
 
 @Component({
@@ -15,8 +16,8 @@ export class LoginFormComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  constructor() { }
-  getAllUsers() {
+  constructor(private router: Router) { }
+  UsersValidate() {
       axios.get('https://speedplanneros.azurewebsites.net/api/users').then(
         response => {
           // tslint:disable-next-line:prefer-for-of
@@ -28,8 +29,6 @@ export class LoginFormComponent implements OnInit {
             console.log('User Found');
             this.userId = response.data[i].id;
             console.log('User id:', this.userId);
-
-            // router.push({path: `/inscription-process`}); cambiar por sintaxis de angular
             this.check = true;
             break;
           }
