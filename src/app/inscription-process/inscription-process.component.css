@@ -1,0 +1,214 @@
+html, body{
+  width: 100%;
+}
+
+h1, label, span, th, td, div {
+  color: white;
+  text-align: center;
+  font-family: "Khula", sans-serif;
+}
+
+#header {
+  width: 100%;
+  top: 0;
+  height: 100px;
+  background-color: #3A62B7;
+}
+
+.space {
+  background-color: rgba(155, 155, 161, 0.99);
+  height: 10px;
+}
+
+#personal-information{
+  color:white;
+  background-color: #2E3D4E;
+  height: 100px;
+  padding-top: 15px;
+}
+
+.up .down{
+  padding-bottom: 10px;
+}
+
+.left{
+  text-align: left;
+
+}
+
+.list{
+  text-align: left;
+}
+
+.info{
+  margin-left: 20%;
+}
+
+.casilla{
+  margin-left:5%;
+  margin-top: 5px;
+}
+
+.right{
+  text-align: right;
+  margin-right: 20%;
+}
+
+#middle {
+  background-color: #23313F;
+  display: flex;
+}
+
+.card {
+  border-radius: 50px;
+  border: 1px solid #eee;
+
+  margin: 0 8px 16px;
+  padding: 8px 4px;
+  background-color: rgba(51, 76, 132, 0.99);
+  color: white;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  line-height: 24px;
+  width: 30%;
+}
+
+#buttons{
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#left-list-courses-type{
+  width: 30%;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10px;
+  color: #9F3833;
+}
+
+#list-courses-type{
+  background-color: rgba(58, 69, 82, 0.99);
+  border-radius: 25px;
+  height: 250px;
+  padding: 10% 10%;
+}
+
+#right-table-schedule{
+  width: 65%;
+
+  margin: 30px 5%;
+}
+.img{
+  display:block;
+  margin:auto;
+  width: 30% !important;
+  height: 40% !important;
+  padding-top: 20px;
+}
+table{
+  width: 100%;
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+th, td{
+  border: 1px solid white;
+  text-align: center;
+  width: 12.5%
+}
+
+td:nth-child(1){
+  background-color: #9F3833;
+}
+
+th:nth-child(2),
+th:nth-child(3),
+th:nth-child(4),
+th:nth-child(5),
+th:nth-child(6),
+th:nth-child(7),
+th:nth-child(8){
+  background-color: rgba(26, 81, 175, 0.99);
+}
+
+#footer {
+  width: 100%;
+  bottom: 0;
+  height: 30px;
+
+  background-color: #9F3833;
+  color: white;
+  text-align: right;
+  left: 0;
+  right: 0;
+
+
+  align-items: center;
+
+  font-weight: 500;
+}
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 20px !important;
+  }
+  #right-table-schedule{
+    display: none !important;
+  }
+  #middle {
+    background-color: #23313F;
+  }
+  .list{
+    text-align: center;
+  }.img{
+    display:block;
+    margin:auto;
+    width: 60% !important;
+    height: 30% !important;
+    padding-top: 30px;
+  }
+  #list-courses-type{
+    float: left !important;
+    padding-right: 130px;
+    background-color: rgba(58, 69, 82, 0.99);
+    border-radius: 25px;
+    width: 100px;
+    height: 150px;
+  }
+  #left-list-courses-type{
+    width: 30%;
+    text-align: center;
+    margin-left: 75px !important;
+    margin-top: 10px;
+    color: #9F3833;
+  }
+  .a{
+    text-align: center;
+  }
+  .list{
+    text-align: center !important;
+  }
+  #middle {
+    background-color: #23313F;
+    right: 25% !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 20px !important;
+  }
+  #right-table-schedule{
+    display: none !important;
+  }
+  #middle {
+    background-color: #23313F;
+  }
+  .list{
+    text-align: center;
+  }
+}
+

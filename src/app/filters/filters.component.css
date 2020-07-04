@@ -26,15 +26,16 @@
 
 .text{
   color: white;
-  font-size: 3rem;
+  font-size: 50px;
   font-family: "Khula" , sans-serif;
-  font-weight: lighter;
+  text-align: center;
+  padding-top: 30px;
 }
 .smalltext{
   color: white;
   font-size: 2rem;
   font-family: "Khula" , sans-serif;
-  font-weight: lighter;
+  padding-left: 20px;
 }
 .line-blue-thin{
   width: 100%;
@@ -132,9 +133,9 @@ p {
 .btn2{
   background-color: #3457A1;
   font-family: "Khula" , sans-serif;
-  font-weight: lighter;
+  width: 100px;
+  height: 50px;
   font-size: 20px;
-  text-align: center;
   margin-top: 5px;
   color: white;
   border-radius: 10px;
@@ -143,12 +144,66 @@ p {
 .btn1{
   background-color: #A33D37;
   font-family: "Khula" , sans-serif;
-  font-weight: lighter;
+  width: 100px;
+  height: 50px;
   font-size: 20px;
-  text-align: center;
   margin-top: 10px;
   color: white;
-  border-radius: 25px;
+  border-radius: 10px;
+}
+.smalltext2{
+  font-size: 15px;
+  font-family: "Khula" , sans-serif;
+  color: white;
+  padding-left: 20px;
+}
+@media screen and (max-width: 800px) {
+  .sp1{
+    width: 100%;
+    height: 100px !important;
+    background-color: #2E3D4E;
+  }
+
+  .text{
+    color: white;
+    font-size: 2rem;
+    font-family: "Khula" , sans-serif;
+    font-weight: lighter;
+  }
+  .smalltext{
+    color: white;
+    font-size: 25px;
+    font-family: "Khula" , sans-serif;
+  }
+  .btn2{
+    background-color: #3457A1;
+    font-family: "Khula" , sans-serif;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    margin-top: 15px !important;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .btn1{
+    background-color: #A33D37;
+    font-family: "Khula" , sans-serif;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    margin-top: 15px !important;
+    color: white;
+    border-radius: 10px;
+  }
+  #block_container {
+    display: flex;
+    justify-content: left;
+    height: 25% !important;
+  }
 }
 
+@media screen and (max-width: 400px) {
+
+}
 
